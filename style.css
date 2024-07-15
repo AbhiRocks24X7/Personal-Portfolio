@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.headr {
+    position: fixed;
+    width: 100%;
+    /*border: solid 1px red;*/
+    height: 75px;
+    display: inline-block;
+    z-index: 20;
+    color: alicered;
+    text-align: right;
+}
+
+.nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    height: 75px;
+}
+
+.lnk {
+    float: right;
+    padding-right: 20px;
+}
+
+.lnk a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    height: 75px;
+}
+
+.lnk a:hover {
+    background-color: #111111;
+    color: lightblue;
+    font-size: 1.2rem;
+}
+
+
+#home {
+    width: 100%;
+    /*border: solid 1px red;*/
+    height: 100%;
+    display: inline-block;
+    padding: 100px;
+}
+
+.pro {
+    height: 550px;
+    width: 420px;
+    padding-top: 80px;
+    float: left;
+}
+
+.about {
+    padding: 75px 50px 100px 450px;
+    font-size: x-large;
+}
+
+
+#academics {
+    width: 100%;
+    /*border: solid 1px red;*/
+    height: 100%;
+    display: inline-block;
+    padding: 100px;
+}
+
+.acad {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: rgb(225, 225, 225);
+    padding: 25px;
+}
+
+.lg {
+    float: left;
+    padding-right: 30px;
+    height: 100px;
+    width: 130px;
+}
+
+.per {
+    text-align: right;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+
+#skills {
+    width: 100%;
+    /*border: solid 1px red;*/
+    height: 100%;
+    display: inline-block;
+    padding: 100px;
+}
+
+.skl {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-skl {
+    width: 80%;
+    height: 100%;
+    padding: 30px;
+}
+
+.right-skl {
+    width: 120%;
+    height: 100%;
+    padding: 30px;
+    font-size: x-large;
+}
+
+.skill_list {
+    padding: 20px;
+    font-size: x-large;
+}
+
+.skillset {
+    background: none;
+    border: none;
+    font-size: x-large;
+}
+
+.skillset:hover {
+    color: blue;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#bq {
+    background-color: #b0b0f0;
+    overflow-y: scroll;
+}
+
+
+#indexp {
+    width: 100%;
+    /*border: solid 1px red;*/
+    height: 100%;
+    display: inline-block;
+    padding: 100px;
+}
+
+.experience-list li {
+    display: inline-block;
+}
+
+.experience-btn {
+    border-bottom: 0px;
+    background-color: #333;
+    color: #e8f3ff;
+    padding: 5px 10px;
+}
+
+.experience-btn1 {
+    border-bottom: 0px;
+    background-color: #333;
+    color: #e8f3ff;
+    padding: 7px 15px;
+}
+
+.experience-btn:hover {
+    cursor: pointer;
+    color: lightgreen;
+}
+
+.experience-btn1:hover {
+    cursor: pointer;
+    color: lightgreen;
+}
+
+.expinfo {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    font-size: x-large;
+    color: #333;
+    background-color: #e8f3ff;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.expimg {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 300px;
+    /* Adjust as needed */
+    height: 100px;
+    float: right;
+}
+
+#projects {
+    width: 100%;
+    /*border: solid 1px red;*/
+    height: 50%;
+    display: inline-block;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projcol {
+    width: 100%;
+    height: 108px;
+    flex-direction: column;
+}
+
+.proj {
+    width: 100%;
+    height: 75%;
+}
+
+.projacc {
+    background-color: linear-gradient(orange, white, green);
+    height: 97%;
+    width: 33%;
+    display: inline-block;
+    flex-direction: row;
+    padding: 5px;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.projacc:hover {
+    background-color: lightgrey;
+    color: #008080;
+    font-size: x-large;
+}
+
+.ach {
+    width: 100%;
+    height: 25%;
+}
+
+
+#contact {
+    width: 100%;
+    /*border: solid 1px red;*/
+    height: 100%;
+    display: inline-block;
+    padding: 100px;
+}
+
+.dwnld {
+    padding: 20px;
+    font-size: large;
+    color: white;
+    background-color: darkblue;
+    border-radius: 100px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.frm {
+    padding: 20px 20px 20px 50px;
+}
+
+.typ {
+    border: 2px solid blue;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.typr {
+    border: 2px solid blue;
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+}
+
+.sbmt {
+    border-radius: 20%;
+    padding: 5px;
+}
+
+
+.footr {
+    position: sticky;
+    width: 100%;
+    /*border: solid 1px red;*/
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px
+}
